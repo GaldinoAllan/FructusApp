@@ -6,7 +6,7 @@ let fruitsData: [Fruit] = [
         title: "Blueberry",
         headline: "Blueberries are sweet, nutritious and wildly popular fruit all over the world.",
         image: "blueberry",
-        gradientColors: [Color("ColorBlueberryLight"), Color("ColorBlueberryDark")],
+        gradientColors: [.blueberryLight, .blueberryDark],
         description: """
           Blueberries are perennial flowering plants with blue or purple berries. They are classified in the section Cyanococcus within the genus Vaccinium. Vaccinium also includes cranberries, bilberries, huckleberries and Madeira blueberries.
 
@@ -36,7 +36,7 @@ let fruitsData: [Fruit] = [
         title: "Strawberry",
         headline: "Widely appreciated for its characteristic aroma,  red color, juicy texture, and sweetness.",
         image: "strawberry",
-        gradientColors: [Color("ColorStrawberryLight"), Color("ColorStrawberryDark")],
+        gradientColors: [.strawberryLight, .strawberryDark],
         description: """
           The garden strawberry (or simply strawberry; Fragaria × ananassa) is a widely grown hybrid species of the genus Fragaria, collectively known as the strawberries, which are cultivated worldwide for their fruit. The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness. It is consumed in large quantities, either fresh or in such prepared foods as jam, juice, pies, ice cream, milkshakes, and chocolates. Artificial strawberry flavorings and aromas are also widely used in products such as candy, soap, lip gloss, perfume, and many others.
 
@@ -62,7 +62,7 @@ let fruitsData: [Fruit] = [
         title: "Lemon",
         headline: "There's no doubt lemons are delicious, but does adding them to water make you healthier?",
         image: "lemon",
-        gradientColors: [Color("ColorLemonLight"), Color("ColorLemonDark")],
+        gradientColors: [.lemonLight, .lemonDark],
         description: """
           The lemon, Citrus limon, is a species of small evergreen tree in the flowering plant family Rutaceae, native to South Asia, primarily North eastern India. Its fruits are round in shape.
 
@@ -104,7 +104,7 @@ let fruitsData: [Fruit] = [
         title: "Plum",
         headline: "Plums are a very nutritious fruit. An excellent source of vitamins, minerals, fiber and antioxidants.",
         image: "plum",
-        gradientColors: [Color("ColorPlumLight"), Color("ColorPlumDark")],
+        gradientColors: [.plumLight, .plumDark],
         description: """
           A plum is a fruit of the subgenus Prunus of the genus Prunus. The subgenus is distinguished from other subgenera (peaches, cherries, bird cherries, etc.) in the shoots having terminal bud and solitary side buds (not clustered), the flowers in groups of one to five together on short stems, and the fruit having a groove running down one side and a smooth stone (or pit).
 
@@ -136,7 +136,7 @@ let fruitsData: [Fruit] = [
         title: "Lime",
         headline: "Sour, round, and bright green citrus fruits. Limes are high in vitamin C, antioxidants, and other nutrients.",
         image: "lime",
-        gradientColors: [Color("ColorLimeLight"), Color("ColorLimeDark")],
+        gradientColors: [.limeLight, .limeDark],
         description: """
         A lime (from French lime, from Arabic līma, from Persian līmū, "lemon")[1] is a citrus fruit, which is typically round, green in color, 3–6 centimetres (1.2–2.4 in) in diameter, and contains acidic juice vesicles.
 
@@ -166,7 +166,7 @@ let fruitsData: [Fruit] = [
         title: "Pomegranate",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "pomegranate",
-        gradientColors: [Color("ColorPomegranateLight"), Color("ColorPomegranateDark")],
+        gradientColors: [.pomegranateLight, .pomegranateDark],
         description: """
           The pomegranate (Punica granatum) is a fruit-bearing deciduous shrub in the family Lythraceae, subfamily Punicoideae, that grows between 5 and 10 m (16 and 33 ft) tall.
 
@@ -192,7 +192,7 @@ let fruitsData: [Fruit] = [
         title: "Pear",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "pear",
-        gradientColors: [Color("ColorPearLight"), Color("ColorPearDark")],
+        gradientColors: [.pearLight, .pearDark],
         description: """
           The pear (/ˈpɛər/) tree and shrub are a species of genus Pyrus /ˈpaɪrəs/, in the family Rosaceae, bearing the pomaceous fruit of the same name. Several species of pear are valued for their edible fruit and juices while others are cultivated as trees.
 
@@ -228,7 +228,7 @@ let fruitsData: [Fruit] = [
         title: "Gooseberry",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "gooseberry",
-        gradientColors: [Color("ColorGooseberryLight"), Color("ColorGooseberryDark")],
+        gradientColors: [.gooseberryLight, .gooseberryDark],
         description: """
           The gooseberry (/ˈɡuːsbɛri/ or /ˈɡuːzbɛri/ (American and northern British) or /ˈɡʊzbəri/ (southern British)), with scientific names Ribes uva-crispa (and syn. Ribes grossularia), is a species of Ribes (which also includes the currants).
 
@@ -252,7 +252,7 @@ let fruitsData: [Fruit] = [
         title: "Mango",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "mango",
-        gradientColors: [Color("ColorMangoLight"), Color("ColorMangoDark")],
+        gradientColors: [.mangoLight, .mangoDark],
         description: """
           A mango is a juicy stone fruit (drupe) produced from numerous species of tropical trees belonging to the flowering plant genus Mangifera, cultivated mostly for their edible fruit. Most of these species are found in nature as wild mangoes. The genus belongs to the cashew family Anacardiaceae. Mangoes are native to South Asia, from where the "common mango" or "Indian mango", Mangifera indica, has been distributed worldwide to become one of the most widely cultivated fruits in the tropics. Other Mangifera species (e.g. horse mango, Mangifera foetida) are grown on a more localized basis.
 
@@ -284,7 +284,7 @@ let fruitsData: [Fruit] = [
         title: "Watermelon",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "watermelon",
-        gradientColors: [Color("ColorWatermelonLight"), Color("ColorWatermelonDark")],
+        gradientColors: [.watermelonLight, .watermelonDark],
         description: """
           Watermelon (Citrullus lanatus) is a plant species in the family Cucurbitaceae, a vine-like flowering plant originally domesticated in West Africa. It is a highly cultivated fruit worldwide, having more than 1000 varieties.
 
@@ -318,7 +318,7 @@ let fruitsData: [Fruit] = [
         title: "Cherry",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "cherry",
-        gradientColors: [Color("ColorCherryLight"), Color("ColorCherryDark")],
+        gradientColors: [.cherryLight, .cherryDark],
         description: """
           A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe (stone fruit). Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus.
 
@@ -340,7 +340,7 @@ let fruitsData: [Fruit] = [
         title: "Grapefruit",
         headline: "Sweet, bell-shaped fruits that have been enjoyed since ancient times. They can be eaten crisp or soft.",
         image: "grapefruit",
-        gradientColors: [Color("ColorGrapefruitLight"), Color("ColorGrapefruitDark")],
+        gradientColors: [.grapefruitLight, .grapefruitDark],
         description: """
           The grapefruit (Citrus × paradisi) is a subtropical citrus tree known for its relatively large sour to semisweet, somewhat bitter fruit. Grapefruit is a citrus hybrid originating in Barbados as an accidental cross between the sweet orange (C. sinensis) and pomelo (or shaddock; C. maxima), both of which were introduced from Asia in the 17th century.[2] When found, it was nicknamed the "forbidden fruit". Frequently, it is misidentified as the very similar parent species, pomelo.
 
@@ -366,7 +366,7 @@ let fruitsData: [Fruit] = [
         title: "Apple",
         headline: "Apples are one of the most popular, and exceptionally healthy fruit for good reason.",
         image: "apple",
-        gradientColors: [Color("ColorAppleLight"), Color("ColorAppleDark")],
+        gradientColors: [.appleLight, .appleDark],
         description: """
           An apple is an edible fruit produced by an apple tree (Malus domestica). Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus. The tree originated in Central Asia, where its wild ancestor, Malus sieversii, is still found today. Apples have been grown for thousands of years in Asia and Europe and were brought to North America by European colonists. Apples have religious and mythological significance in many cultures, including Norse, Greek and European Christian tradition.
 
