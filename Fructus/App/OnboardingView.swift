@@ -2,7 +2,7 @@ import SwiftUI
 
 struct OnboardingView: View {
     // MARK: - Properties
-    var fruits: [Fruit]
+    let fruits: [Fruit]
     
     // MARK: - Body
     var body: some View {
